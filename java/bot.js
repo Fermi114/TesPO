@@ -10,9 +10,9 @@ configChatbot.replicas = {
       0: { content: 'Привет! Я Инфинити - бот поддержки сайта', human: [0, 1, 2] },
       1: { content: 'Что Вас интересует?', human: [3, 4, 5, 6] },
       2: { content: 'Наша задача в доступной форме рассказать про популярные программные обеспечения для вашего сайта', human: [4, 5, 6] },
-      3: { content: 'МЫ предлагаем информацию с официальных источников, а также вы можете написать нам в соц. сетях либо в качестве формы на почту', human: [3, 5, 6] },
-      4: { content: 'https://fermi114.github.io/TesPO/contacts.html', human: [4, 3, 6] },
-      5: {content: 'https://fermi114.github.io/TesPO/test.html', human:[4, 5, 3]}
+      3: { content: 'Мы предлагаем информацию с официальных источников, а также вы можете написать нам в соц. сетях либо в качестве формы на почту', human: [3, 5, 6] },
+      4: { content: '<a href="https://fermi114.github.io/TesPO/contacts.html">Ссылка</a>', human: [4, 3, 6]},
+      5: {content: '<a href="https://fermi114.github.io/TesPO/test.html">Ссылка</a>', human:[4, 5, 3]}
       /* ... */
     },
     human: {
