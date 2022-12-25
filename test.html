@@ -36,6 +36,130 @@
             </div>
         </header>
     </div>
+    <div class="containerkont">
+        <div class="containerotv">
+            <div class="form">
+                <form action="#" id="form" class="form_body">
+                    <h1 class="form_title">
+                        Опрос
+                    </h1>
+                    <div class="form_item">
+                        <label for="formName" class="form_label">Имя*:</label>
+                        <input id="formName" type="text"  name ="name" class="form_input _req">
+                    </div>
+                    <div class="form_item">
+                        <label for="formGender" class="form_label">Почта*:</label>
+                        <input id="formGernder" type="text"  name ="gender" class="form_input _req _email">
+                    </div>
+                    <div class="form_item">
+                        <div class="form_title">Ваш пол?</div>
+                        <div class="options">
+                            <div class="options_item">
+                                <input id="form_women" type="radio" value="women" name="first" class="options_input">
+                                <label for="form_women">Женщина</label>
+                            </div>
+                            <div class="options_item">
+                                <input id="form_men" type="radio" value="men" name="first" class="options_input">
+                                <label for="form_men">Мужчина</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_item">
+                        <div class="form_title">Какой вы возрастной категории?</div>
+                        <div class="options">
+                            <div class="options_item">
+                                <input id="form_second1" type="radio" value="second1" name="second" class="options_input">
+                                <label for="form_second1">65+ лет</label>
+                            </div>
+                            <div class="options_item">
+                                <input id="form_second2" type="radio" value="second2" name="second" class="options_input">
+                                <label for="form_second2">25-45 лет</label>
+                            </div>
+                            <div class="options_item">
+                                <input id="form_second3" type="radio" value="second3" name="second" class="options_input">
+                                <label for="form_second3">18-25 лет</label>
+                            </div>
+                            <div class="options_item">
+                                <input id="form_second4" type="radio" value="second4" name="second" class="options_input">
+                                <label for="form_second4">до 18 лет</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_item">
+                        <div class="form_title">Каким браузером вы пользуетесь?</div>
+                        <div class="options">
+                            <div class="options_item">
+                                <input id="form_third1" type="radio" value="third1" name="third" class="options_input">
+                                <label for="form_third1">Google Chrome</label>
+                            </div>
+                            <div class="options_item">
+                                <input id="form_third2" type="radio" value="third2" name="third" class="options_input">
+                                <label for="form_third2">Opera</label>
+                            </div>
+                            <div class="options_item">
+                                <input id="form_third3" type="radio" value="third3" name="third" class="options_input">
+                                <label for="form_third3">Яндекс браузер</label>
+                            </div>
+                            <div class="options_item">
+                                <input id="form_third4" type="radio" value="third4" name="third" class="options_input">
+                                <label for="form_third4">Другое</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_item">
+                        <div class="form_title">Какая операционная система у вас установлена?</div>
+                        <div class="options">
+                            <div class="options_item">
+                                <input id="form_fourth1" type="radio" value="fourth1" name="fourth" class="options_input">
+                                <label for="form_fourth1">Windows</label>
+                            </div>
+                            <div class="options_item">
+                                <input id="form_fourth2" type="radio" value="fourth2" name="fourth" class="options_input">
+                                <label for="form_fourth2">Ubuntu</label>
+                            </div>
+                            <div class="options_item">
+                                <input id="form_fourth3" type="radio" value="fourth3" name="fourth" class="options_input">
+                                <label for="form_fourth3">RedOS</label>
+                            </div>
+                            <div class="options_item">
+                                <input id="form_fourth4" type="radio" value="fourth4" name="fourth" class="options_input">
+                                <label for="form_fourth4">Другое</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_item">
+                        <div class="form_title">Сталкивались ли вы с вирусами?</div>
+                        <div class="options">
+                            <div class="options_item">
+                                <input id="form_fivth1" type="radio" value="fivth1" name="fivth" class="options_input">
+                                <label for="form_fivth1">Да</label>
+                            </div>
+                            <div class="options_item">
+                                <input id="form_fivth2" type="radio" value="fivth2" name="fivth" class="options_input">
+                                <label for="form_fivth2">Нет</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form_item">
+                        <div class="form_title">Была ли полезна предоставленная информация?</div>
+                        <div class="options">
+                            <div class="options_item">
+                                <input id="form_seventh1" type="radio" value="seventh1" name="seventh" class="options_input">
+                                <label for="form_seventh1">Да</label>
+                            </div>
+                            <div class="options_item">
+                                <input id="form_seventh2" type="radio" value="seventh2" name="seventh" class="options_input">
+                                <label for="form_seventh2">Нет</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="form_button">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
     <div class="chatbot__btn">
         <div class="chatbot__tooltip d-none">Есть вопрос?</div>
       </div>
@@ -44,5 +168,6 @@
     <script src="chatbot/fp2.js"></script>
     <script src="chatbot/chatbot.js"></script>
     <script src="java/bot.js"></script>
+    <script src="java/opros.js"></script>
 </body>
 </html>
